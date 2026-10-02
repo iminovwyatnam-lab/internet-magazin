@@ -1,0 +1,39 @@
+.hero-block{
+    width: 1350px;
+    padding: 20px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.oypon{
+    position: relative;
+    right: 230px;
+}
+.hero-block div{
+    margin-left: 40px;
+}
+.hero-block div img{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.hero-block div h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.hero-down div{
+    width: 10px;
+    height: 40px;
+    background-color: red;
+    border-radius: 3px;
+}
+.hero-down{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 90px;
+}
