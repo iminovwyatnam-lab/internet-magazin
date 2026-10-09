@@ -1,4 +1,11 @@
-.hero-block{
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hero-block {
     width: 1350px;
     padding: 20px;
     background-color: black;
@@ -8,32 +15,101 @@
     justify-content: center;
     color: white;
 }
-.oypon{
+
+.oypon {
     position: relative;
     right: 230px;
 }
-.hero-block div{
+
+.hero-block div {
     margin-left: 40px;
 }
-.hero-block div img{
+
+.hero-block div img {
     margin-bottom: 10px;
     margin-top: -10px;
 }
-.hero-block div h1{
+
+.hero-block div h1 {
     margin-bottom: 50px;
     font-size: 50px;
 }
-.hero-down div{
+
+.hero-down div {
     width: 10px;
     height: 40px;
     background-color: red;
     border-radius: 3px;
 }
-.hero-down{
+
+.hero-down {
     width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     margin-left: 90px;
+}
+
+.card {
+    width: 200px;
+    padding: 10px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+    width: 130px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 0px 0px black;
+}
+
+.products-grid {
+    max-width: 1365px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.card h3 {
+    text-align: start;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #1a1a1a;
+    letter-spacing: -0.2px;
+    margin: 12px 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.6em;
+}
+
+.card p {
+    text-align: start;
+    margin-top: auto;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e11d2e;
+    margin: auto 0 0;
 }

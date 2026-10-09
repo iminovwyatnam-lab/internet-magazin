@@ -1,8 +1,8 @@
 import "./footer.css"
-import galochka from "../../assets/galochka.png"
-import bistroye_dostavka from "../../assets/bistroye-dostavka.png"
-import naushniki from "../../assets/naushniki.png"
-import downlood from "../../assets/download.png"
+import galochka from "../../../assets/galochka.png"
+import bistroye_dostavka from "../../../assets/bistroye-dostavka.png"
+import naushniki from "../../../assets/naushniki.png"
+import downlood from "../../../assets/download.png"
 
 export default function Footer() {
   return (

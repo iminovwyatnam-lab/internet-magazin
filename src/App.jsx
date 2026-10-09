@@ -1,14 +1,18 @@
+import { Route, Routes } from "react-router-dom"
 import "./App.css"
-import Footer from "./components/Footer/Footer"
-import Header from "./components/header/Header"
-import Hero from "./components/hero/Hero"
+import Layout from "./components/Layout/Layout"
+import Home from "./components/pages/home/Home"
+import NotFound from "./components/pages/notFound/NotFound"
 
 export default function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Footer />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </>
   )
 }
