@@ -7,7 +7,6 @@ export default function Hero({ products = [], loading, error }) {
   function renderProducts() {
     if (loading) return <p>Загрузка...</p>
     if (error) return <p>{error}</p>
-    if (products.length === 0) return <p>Продуктов нет</p>
 
 
     return products.map((item) => (
